@@ -35,7 +35,7 @@
     [super viewDidLoad];
     _dataSource=[[NSMutableArray alloc]init];
     [GiFHUD setGifWithImageName:@"mc.gif"];
-    
+    [self getData];
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [GiFHUD dismiss];
@@ -65,12 +65,44 @@
 }
 - (UICollectionViewCell*)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     EveryDayCollectionViewCell*cell=(EveryDayCollectionViewCell*)[collectionView dequeueReusableCellWithReuseIdentifier:@"reuse" forIndexPath:indexPath];
+    [self configureCell:cell withIndexPath:indexPath];
     return cell;
 }
 - (void)configureCell:(EveryDayCollectionViewCell*)cell withIndexPath:(NSIndexPath*)indexPath{
     AppModel*modelone=_dataSource[indexPath.section];
     NSArray*imageArr=modelone.image;
+    [cell.ImageV sd_setImageWithURL:[NSURL URLWithString:((ImageModel*)imageArr[0]).url] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+    cell.titleLabel.text=modelone.article.title;
+    NSString*authorStr=[NSString stringWithFormat:@"• %@ %@",modelone.category.categoryGroup.name,modelone.author.name];
+    NSMutableAttributedString*nameStr=[[NSMutableAttributedString alloc]initWithString:authorStr];
+    [nameStr addAttribute:NSForegroundColorAttributeName value:[ColorChange colorString:modelone.category.categoryGroup.color] range:NSMakeRange(0, 4)];
+    [cell.classTitleLabel setAttributedText:nameStr];
+    NSInteger createTime=modelone.article.createdTime.integerValue;
+    NSDate*date=[NSDate dateWithTimeIntervalSince1970:createTime/1000+(3600*8)];
+    NSDateFormatter*dateFormatter=[[NSDateFormatter alloc]init];
+    dateFormatter.dateFormat=@"yyyy-MM-dd";
+    NSString*dataStr=[dateFormatter stringFromDate:date];
+    NSArray*dateArray=[dataStr componentsSeparatedByString:@"-"];
+    cell.dayLabel.text=dateArray.lastObject;
+    cell.dataLabel.text=[NSString stringWithFormat:@"%@ %@",dateArray[1],dateArray[0]];
+    
   
+}
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    AppModel*appmodel=_dataSource[indexPath.section];
+    ArticleModel*articlemodel=appmodel.article;
+    ArticleStatusModel*articlestatusmodel=articlemodel.articleStats;
+    NSString*webUrl=articlemodel.url;
+    NSString*like=articlestatusmodel.like;
+    NSString*favorite=articlestatusmodel.favorite;
+    NSString*comment=articlestatusmodel.comment;
+    NSArray*infoArr=@[webUrl,like,favorite,comment];
+    NSUserDefaults*defaults=[NSUserDefaults standardUserDefaults];
+    [defaults setObject:infoArr forKey:@"webUrl"];
+    [defaults synchronize];
+    UIStoryboard*story=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    WebViewController*webview=[story instantiateViewControllerWithIdentifier:@"webView"];
+    [self.navigationController pushViewController:webview animated:YES];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

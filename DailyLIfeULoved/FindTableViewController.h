@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface FindTableViewController : UITableViewController
+{
+    NSString * _currentPage;
+    NSString * _num;
+    BOOL _IS_LOADING;
+    BOOL _IS_UP_PULL;
+}
 
 @end

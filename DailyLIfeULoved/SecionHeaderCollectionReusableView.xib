@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sectionHeaderId" id="pTJ-df-clb" customClass="SecionHeaderCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" tag="100" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="推荐专栏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0OJ-ie-mUw">
+                    <rect key="frame" x="23" y="0.0" width="44" height="29"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b1M-I0-eIb">
+                    <rect key="frame" x="10" y="10" width="3" height="9"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="3" id="AbX-Yx-z7q"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="b1M-I0-eIb" secondAttribute="bottom" constant="10" id="049-0S-RXe"/>
+                <constraint firstAttribute="bottom" secondItem="0OJ-ie-mUw" secondAttribute="bottom" id="9aE-Np-Mcr"/>
+                <constraint firstItem="0OJ-ie-mUw" firstAttribute="top" secondItem="pTJ-df-clb" secondAttribute="top" id="dqs-ER-Xop"/>
+                <constraint firstItem="b1M-I0-eIb" firstAttribute="top" secondItem="pTJ-df-clb" secondAttribute="top" constant="10" id="gbp-79-G5A"/>
+                <constraint firstItem="0OJ-ie-mUw" firstAttribute="leading" secondItem="b1M-I0-eIb" secondAttribute="trailing" constant="10" id="ozk-cz-2eI"/>
+                <constraint firstItem="b1M-I0-eIb" firstAttribute="leading" secondItem="pTJ-df-clb" secondAttribute="leading" constant="10" id="rzB-vL-HzR"/>
+            </constraints>
+            <connections>
+                <outlet property="titleLab" destination="0OJ-ie-mUw" id="V1t-Gw-9tb"/>
+                <outlet property="titleLabel" destination="0OJ-ie-mUw" id="Kdh-h3-cBJ"/>
+            </connections>
+            <point key="canvasLocation" x="235" y="327.5"/>
+        </collectionReusableView>
+    </objects>
+</document>

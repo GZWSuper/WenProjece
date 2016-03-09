@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6C10CC1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6C10CA1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.m */; };
+		BC6C10CD1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6C10CB1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.xib */; };
 		BCF576891C8AB36100DEA3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF576881C8AB36100DEA3DC /* main.m */; };
 		BCF5768C1C8AB36100DEA3DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5768B1C8AB36100DEA3DC /* AppDelegate.m */; };
 		BCF5768F1C8AB36100DEA3DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF5768E1C8AB36100DEA3DC /* ViewController.m */; };
@@ -104,7 +106,6 @@
 		BCF577D51C8D7D3000DEA3DC /* ThingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577D41C8D7D3000DEA3DC /* ThingsViewController.m */; };
 		BCF577D81C8D7D9600DEA3DC /* SpecialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577D71C8D7D9600DEA3DC /* SpecialViewController.m */; };
 		BCF577DB1C8D7DB800DEA3DC /* AuthorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577DA1C8D7DB800DEA3DC /* AuthorTableViewController.m */; };
-		BCF577DE1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577DD1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.m */; };
 		BCF577E21C8D7E2D00DEA3DC /* FirstCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577E01C8D7E2D00DEA3DC /* FirstCollectionViewCell.m */; };
 		BCF577E31C8D7E2D00DEA3DC /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF577E11C8D7E2D00DEA3DC /* FirstCollectionViewCell.xib */; };
 		BCF577E71C8D7E5200DEA3DC /* SpecialCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCF577E51C8D7E5200DEA3DC /* SpecialCollectionViewCell.m */; };
@@ -132,6 +133,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC6C10C91C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecionHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		BC6C10CA1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecionHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		BC6C10CB1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecionHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		BCF576841C8AB36100DEA3DC /* DailyLIfeULoved.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyLIfeULoved.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF576881C8AB36100DEA3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BCF5768A1C8AB36100DEA3DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -319,8 +323,6 @@
 		BCF577D71C8D7D9600DEA3DC /* SpecialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialViewController.m; sourceTree = "<group>"; };
 		BCF577D91C8D7DB800DEA3DC /* AuthorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorTableViewController.h; sourceTree = "<group>"; };
 		BCF577DA1C8D7DB800DEA3DC /* AuthorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorTableViewController.m; sourceTree = "<group>"; };
-		BCF577DC1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderCollectionReusableView.h; sourceTree = "<group>"; };
-		BCF577DD1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderCollectionReusableView.m; sourceTree = "<group>"; };
 		BCF577DF1C8D7E2D00DEA3DC /* FirstCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstCollectionViewCell.h; sourceTree = "<group>"; };
 		BCF577E01C8D7E2D00DEA3DC /* FirstCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstCollectionViewCell.m; sourceTree = "<group>"; };
 		BCF577E11C8D7E2D00DEA3DC /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -764,8 +766,9 @@
 				BCF577D71C8D7D9600DEA3DC /* SpecialViewController.m */,
 				BCF577D91C8D7DB800DEA3DC /* AuthorTableViewController.h */,
 				BCF577DA1C8D7DB800DEA3DC /* AuthorTableViewController.m */,
-				BCF577DC1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.h */,
-				BCF577DD1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.m */,
+				BC6C10C91C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.h */,
+				BC6C10CA1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.m */,
+				BC6C10CB1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.xib */,
 				BCF577DF1C8D7E2D00DEA3DC /* FirstCollectionViewCell.h */,
 				BCF577E01C8D7E2D00DEA3DC /* FirstCollectionViewCell.m */,
 				BCF577E11C8D7E2D00DEA3DC /* FirstCollectionViewCell.xib */,
@@ -943,6 +946,7 @@
 				BCF576F81C8AB41300DEA3DC /* SCNavTabBar.bundle in Resources */,
 				BCF577461C8AB6CF00DEA3DC /* Icon-75.png in Resources */,
 				BCF577ED1C8D7E8700DEA3DC /* FirstAuthorTableViewCell.xib in Resources */,
+				BC6C10CD1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.xib in Resources */,
 				BCF576941C8AB36100DEA3DC /* Assets.xcassets in Resources */,
 				BCF5774A1C8AB6DB00DEA3DC /* Icon-152.png in Resources */,
 				BCF5770D1C8AB42300DEA3DC /* MJRefresh.bundle in Resources */,
@@ -976,6 +980,7 @@
 				BCF577851C8AE34400DEA3DC /* SpeAppModel.m in Sources */,
 				BCF577911C8AE57300DEA3DC /* DeResultModel.m in Sources */,
 				BCF5778E1C8AE51000DEA3DC /* ScDataModel.m in Sources */,
+				BC6C10CC1C900DDE00DFFC80 /* SecionHeaderCollectionReusableView.m in Sources */,
 				BCF576EA1C8AB40A00DEA3DC /* UIImageView+HighlightedWebCache.m in Sources */,
 				BCF5773B1C8AB45800DEA3DC /* JSONValueTransformer.m in Sources */,
 				BCF576DE1C8AB40A00DEA3DC /* NSData+ImageContentType.m in Sources */,
@@ -992,7 +997,6 @@
 				BCF5773F1C8AB51D00DEA3DC /* GiFHUD.m in Sources */,
 				BCF577BF1C8D7C1D00DEA3DC /* BaseTableViewCell.m in Sources */,
 				BCF577B41C8D7BC000DEA3DC /* FirstTableViewCell.m in Sources */,
-				BCF577DE1C8D7DEF00DEA3DC /* SectionHeaderCollectionReusableView.m in Sources */,
 				BCF576DF1C8AB40A00DEA3DC /* SDImageCache.m in Sources */,
 				BCF577791C8ADDDE00DEA3DC /* DataModel.m in Sources */,
 				BCF577C61C8D7C9100DEA3DC /* BaseTableViewController.m in Sources */,

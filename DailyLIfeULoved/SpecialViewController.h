@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SpecialViewController : UIViewController
+@interface SpecialViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegateFlowLayout,UIScrollViewDelegate>
 
 @end

@@ -40,6 +40,9 @@
     _IS_LOADING=NO;
     _reDataArray=[[NSMutableArray alloc]init];
     [GiFHUD setGifWithImageName:@"mc.gif"];
+    [self getData];
+    [self registCellId];
+    [self setRefresh];
     
     
     // Uncomment the following line to preserve selection between presentations.

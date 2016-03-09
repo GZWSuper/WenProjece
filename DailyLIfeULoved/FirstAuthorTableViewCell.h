@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstAuthorTableViewCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UIImageView *bgImage;
+@property (weak, nonatomic) IBOutlet UIImageView *headImage;
+@property (weak, nonatomic) IBOutlet UILabel *authorNameLab;
+@property (weak, nonatomic) IBOutlet UILabel *wechatNumLab;
+@property (weak, nonatomic) IBOutlet UILabel *intextLab;
 
 @end

@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstCollectionViewCell : UICollectionViewCell
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 
 @end

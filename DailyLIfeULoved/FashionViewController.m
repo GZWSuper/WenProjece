@@ -16,7 +16,50 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self loadWithStart:@"0"];
+   
+}
+- (void)headerRefreshing{
+    _IS_UP_PULL=NO;
+    [self loadWithStart:@"0"];
+    
+}
+- (void)footerRefreshing{
+    _IS_UP_PULL=YES;
+    [self loadWithStart:_currentPage];
+}
+- (void)loadWithStart:(NSString*)start{
+    if (_IS_LOADING) {
+        return;
+    }
+    _IS_LOADING=YES;
+    [GetData getCategoryInfoWithParam:@"1" andFilter:@"byCategoryGroup" andStart:start andLimit:10 callBack:^(id model) {
+        _IS_LOADING=NO;
+        if(_IS_UP_PULL){
+            [self.tableView footerEndRefreshing];
+        }else{
+            [self.tableView headerEndRefreshing];
+        }
+        if (!model) {
+            return ;
+        }
+        DataModel*dataModel=(DataModel*)model;
+        if (_IS_UP_PULL) {
+            _currentPage=dataModel.next;
+            
+        }else{
+            [_dataArray removeAllObjects];
+            _currentPage=@"0";
+        }
+        static dispatch_once_t one;
+        dispatch_once(&one, ^{
+            _currentPage=dataModel.next;
+        });
+        _currentPage=dataModel.next;
+        [_dataArray addObjectsFromArray:dataModel.result];
+        [self.tableView reloadData];
+        
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

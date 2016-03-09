@@ -7,6 +7,14 @@
 //
 
 #import "CategoryViewController.h"
+#import "FashionViewController.h"
+#import "FoodViewController.h"
+#import "HomeViewController.h"
+#import "TourViewController.h"
+#import "ThingsViewController.h"
+#import "SCNavTabBarController.h"
+
+
 
 @interface CategoryViewController ()
 
@@ -16,7 +24,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    FashionViewController*fashionVC=[[FashionViewController alloc]init];
+    fashionVC.title=@"风尚";
+    FoodViewController * foodVC = [[FoodViewController alloc] init];
+    foodVC.title = @"美食";
+    
+    HomeViewController * homeVC = [[HomeViewController alloc] init];
+    homeVC.title = @"家居";
+    
+    TourViewController * tourVC = [[TourViewController alloc] init];
+    tourVC.title = @"旅游";
+    
+    ThingsViewController * thingsVC = [[ThingsViewController alloc] init];
+    thingsVC.title = @"格物";
+    SCNavTabBarController*navTabControlller=[[SCNavTabBarController alloc]init];
+    navTabControlller.subViewControllers=@[fashionVC,foodVC,homeVC,tourVC,thingsVC];
+    navTabControlller.showArrowButton=NO;
+    navTabControlller.navTabBarColor=[UIColor whiteColor];
+    [navTabControlller addParentController:self];
 }
 
 - (void)didReceiveMemoryWarning {

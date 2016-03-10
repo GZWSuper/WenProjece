@@ -31,6 +31,7 @@
 }
 - (UICollectionViewLayoutAttributes*)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath{
     UICollectionViewLayoutAttributes*attributes=[super layoutAttributesForItemAtIndexPath:indexPath];
+    [self applyTransformToLayoutAttributes:attributes];
     return attributes;
 }
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds{

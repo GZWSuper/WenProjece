@@ -370,10 +370,10 @@
 				BCF577421C8AB5EC00DEA3DC /* WebKit.framework */,
 				BCF577401C8AB5A600DEA3DC /* UIKit.framework */,
 				BCF5779B1C8B0F1000DEA3DC /* VC */,
-				BCF576BA1C8AB3CC00DEA3DC /* lib */,
-				BCF5775A1C8AD44500DEA3DC /* Model */,
 				BCF5774F1C8AB87300DEA3DC /* Help */,
+				BCF5775A1C8AD44500DEA3DC /* Model */,
 				BCF576861C8AB36100DEA3DC /* DailyLIfeULoved */,
+				BCF576BA1C8AB3CC00DEA3DC /* lib */,
 				BCF576A01C8AB36100DEA3DC /* DailyLIfeULovedTests */,
 				BCF576AB1C8AB36100DEA3DC /* DailyLIfeULovedUITests */,
 				BCF576851C8AB36100DEA3DC /* Products */,
@@ -397,7 +397,6 @@
 				BCF5768B1C8AB36100DEA3DC /* AppDelegate.m */,
 				BCF5768D1C8AB36100DEA3DC /* ViewController.h */,
 				BCF5768E1C8AB36100DEA3DC /* ViewController.m */,
-				BCF576901C8AB36100DEA3DC /* Main.storyboard */,
 				BCF576931C8AB36100DEA3DC /* Assets.xcassets */,
 				BCF576951C8AB36100DEA3DC /* LaunchScreen.storyboard */,
 				BCF576981C8AB36100DEA3DC /* Info.plist */,
@@ -635,6 +634,7 @@
 				BCF577961C8AF78400DEA3DC /* DataAnalysis.m */,
 				BCF577981C8AFC8100DEA3DC /* GetData.h */,
 				BCF577991C8AFC8100DEA3DC /* GetData.m */,
+				BCF576901C8AB36100DEA3DC /* Main.storyboard */,
 			);
 			name = Help;
 			sourceTree = "<group>";
@@ -1101,6 +1101,7 @@
 				BCF576911C8AB36100DEA3DC /* Base */,
 			);
 			name = Main.storyboard;
+			path = DailyLIfeULoved;
 			sourceTree = "<group>";
 		};
 		BCF576951C8AB36100DEA3DC /* LaunchScreen.storyboard */ = {

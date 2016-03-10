@@ -14,5 +14,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *classTitleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dayLabel;
 @property (weak, nonatomic) IBOutlet UILabel *dataLabel;
+@property (weak, nonatomic) IBOutlet UILabel *btnLan;
 
 @end

@@ -36,6 +36,11 @@
     _dataSource=[[NSMutableArray alloc]init];
     [GiFHUD setGifWithImageName:@"mc.gif"];
     [self getData];
+    UIImageView*imgV=[[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    imgV.image=[UIImage imageNamed:@"bg.png"];
+    [self.view addSubview:imgV];
+    [self.view sendSubviewToBack:imgV];
+    
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [GiFHUD dismiss];
@@ -77,6 +82,9 @@
     NSMutableAttributedString*nameStr=[[NSMutableAttributedString alloc]initWithString:authorStr];
     [nameStr addAttribute:NSForegroundColorAttributeName value:[ColorChange colorString:modelone.category.categoryGroup.color] range:NSMakeRange(0, 4)];
     [cell.classTitleLabel setAttributedText:nameStr];
+    cell.btnLan.clipsToBounds=YES;
+    cell.btnLan.layer.cornerRadius=34;
+    cell.layer.masksToBounds=YES;
     NSInteger createTime=modelone.article.createdTime.integerValue;
     NSDate*date=[NSDate dateWithTimeIntervalSince1970:createTime/1000+(3600*8)];
     NSDateFormatter*dateFormatter=[[NSDateFormatter alloc]init];

@@ -40,7 +40,7 @@
     SCNavTabBarController*navTabControlller=[[SCNavTabBarController alloc]init];
     navTabControlller.subViewControllers=@[fashionVC,foodVC,homeVC,tourVC,thingsVC];
     navTabControlller.showArrowButton=NO;
-    navTabControlller.navTabBarColor=[UIColor whiteColor];
+    navTabControlller.navTabBarColor=[UIColor colorWithRed: 255/255.0 green:192/255.0 blue:203/255.0 alpha:1.0];
     [navTabControlller addParentController:self];
 }
 

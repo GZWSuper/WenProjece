@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor colorWithRed: 255/255.0 green:192/255.0 blue:203/255.0 alpha:1.0];
     _currentPage=0;
     _IS_LOADING=NO;
     self.tableView.showsVerticalScrollIndicator=NO;

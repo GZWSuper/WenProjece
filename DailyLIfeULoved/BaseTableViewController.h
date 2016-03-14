@@ -24,5 +24,6 @@
     BOOL _IS_LOADING;
     BOOL _IS_UP_PULL;
 }
-
+- (void)headerRefreshing;
+- (void)footerRefreshing;
 @end

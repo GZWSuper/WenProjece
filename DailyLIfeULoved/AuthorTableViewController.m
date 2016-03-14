@@ -47,7 +47,7 @@
     _IS_LOD = NO;
     _authorDataArray = [[NSMutableArray alloc] init];
     [self registCell];
-    [GiFHUD setGifWithImageName:@"mc.gif"];
+   // [GiFHUD setGifWithImageName:@"mc.gif"];
     [self loadWithStart:@"0"];
     [self setRefresh];
     UIImageView * imgV = [[UIImageView alloc] initWithFrame:[UIScreen mainScreen].bounds];
@@ -149,8 +149,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
    DeResultModel*resultModel=_authorDataArray[indexPath.row];
     if(indexPath.row==0){
-        FirstAuthorTableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:@"firstAuthorCellId"];
-        [cell.bgImage sd_setImageWithURL:[NSURL URLWithString:resultModel.author.avatar] placeholderImage:[UIImage imageNamed:@"icon_user_place"]];
+        FirstAuthorTableViewCell*cell=[tableView dequeueReusableCellWithIdentifier:@"firstAuthorCellId" forIndexPath:indexPath];
+        [cell.bgImage sd_setImageWithURL:[NSURL URLWithString:resultModel.author.image] placeholderImage:[UIImage imageNamed:@"placeholder"]];
+        [cell.headImage sd_setImageWithURL:[NSURL URLWithString:resultModel.author.avatar] placeholderImage:[UIImage imageNamed:@"icon_user_place"]];
         cell.authorNameLab.text=resultModel.author.name;
         cell.wechatNumLab.text=[NSString stringWithFormat:@"微信号：%@",resultModel.author.contactId];
         cell.intextLab.text=resultModel.author.introduction;

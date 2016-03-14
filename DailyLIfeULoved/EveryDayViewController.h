@@ -12,4 +12,5 @@
 @interface EveryDayViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
+
 @end

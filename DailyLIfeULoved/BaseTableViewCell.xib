@@ -86,10 +86,9 @@
                 <outlet property="browseLab" destination="Au1-Vm-J8m" id="wtH-x0-eDq"/>
                 <outlet property="classLab" destination="xW7-ov-J1b" id="nnV-ow-2eO"/>
                 <outlet property="imagV" destination="8PG-Di-I1p" id="bwe-lL-KJ9"/>
-                <outlet property="titileLab" destination="gOZ-mB-aOd" id="XbN-Yc-abu"/>
                 <outlet property="titleLab" destination="gOZ-mB-aOd" id="8NZ-D2-MnQ"/>
             </connections>
-            <point key="canvasLocation" x="331" y="43.5"/>
+            <point key="canvasLocation" x="272" y="43.5"/>
         </tableViewCell>
     </objects>
 </document>

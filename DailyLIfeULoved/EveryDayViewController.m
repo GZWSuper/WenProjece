@@ -55,6 +55,7 @@
         [GiFHUD dismiss];
         _collectionView.delegate=self;
         _collectionView.dataSource=self;
+       // _collectionView.pagingEnabled=YES;
         DataModel*dataModel=(DataModel*)object;
         [_dataSource addObjectsFromArray:dataModel.result];
         [_collectionView reloadData];
@@ -76,14 +77,14 @@
 - (void)configureCell:(EveryDayCollectionViewCell*)cell withIndexPath:(NSIndexPath*)indexPath{
     AppModel*modelone=_dataSource[indexPath.section];
     NSArray*imageArr=modelone.image;
-    [cell.ImageV sd_setImageWithURL:[NSURL URLWithString:((ImageModel*)imageArr[0]).url] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
-    cell.titleLabel.text=modelone.article.title;
+    [cell.imagv sd_setImageWithURL:[NSURL URLWithString:((ImageModel*)imageArr[0]).url] placeholderImage:[UIImage imageNamed:@"placeholder.png"]];
+    cell.titleLab.text=modelone.article.title;
     NSString*authorStr=[NSString stringWithFormat:@"• %@ %@",modelone.category.categoryGroup.name,modelone.author.name];
     NSMutableAttributedString*nameStr=[[NSMutableAttributedString alloc]initWithString:authorStr];
     [nameStr addAttribute:NSForegroundColorAttributeName value:[ColorChange colorString:modelone.category.categoryGroup.color] range:NSMakeRange(0, 4)];
-    [cell.classTitleLabel setAttributedText:nameStr];
-    cell.btnLan.clipsToBounds=YES;
-    cell.btnLan.layer.cornerRadius=34;
+    [cell.classNameLab setAttributedText:nameStr];
+    //cell.btnLan.clipsToBounds=YES;
+    //cell.btnLan.layer.cornerRadius=34;
     cell.layer.masksToBounds=YES;
     NSInteger createTime=modelone.article.createdTime.integerValue;
     NSDate*date=[NSDate dateWithTimeIntervalSince1970:createTime/1000+(3600*8)];
@@ -91,8 +92,8 @@
     dateFormatter.dateFormat=@"yyyy-MM-dd";
     NSString*dataStr=[dateFormatter stringFromDate:date];
     NSArray*dateArray=[dataStr componentsSeparatedByString:@"-"];
-    cell.dayLabel.text=dateArray.lastObject;
-    cell.dataLabel.text=[NSString stringWithFormat:@"%@ %@",dateArray[1],dateArray[0]];
+    cell.dayLab.text=dateArray.lastObject;
+    cell.dateLab.text=[NSString stringWithFormat:@"%@ %@",dateArray[1],dateArray[0]];
     
   
 }

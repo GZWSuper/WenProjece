@@ -201,6 +201,14 @@
     }
     return view;
 }
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout referenceSizeForHeaderInSection:(NSInteger)section{
+    if(section==0){
+        return CGSizeMake(0, 0);
+        
+    }
+    return CGSizeMake([UIScreen mainScreen].bounds.size.width, 30);
+
+}
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(nonnull NSIndexPath *)indexPath{
     if (indexPath.section==0) {
         return CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height/3);
@@ -209,6 +217,7 @@
 }
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section{
     if(section==0){
+     
         return UIEdgeInsetsMake(0, 0, 10, 0);
     }else  return UIEdgeInsetsMake(10, 10, 10, 10);
 }

@@ -75,10 +75,7 @@
             <connections>
                 <outlet property="authorNameLab" destination="xaA-1d-6cE" id="JhU-Hd-JfP"/>
                 <outlet property="bgImage" destination="GTz-2B-s0Q" id="vXs-ex-7hz"/>
-                <outlet property="bgImgV" destination="GTz-2B-s0Q" id="rdk-vj-cyr"/>
                 <outlet property="headImage" destination="vfv-YO-3oa" id="toZ-EV-47q"/>
-                <outlet property="headImgv" destination="vfv-YO-3oa" id="tYR-gG-eEl"/>
-                <outlet property="induLab" destination="Qrn-jI-XBP" id="lAQ-5n-ZzG"/>
                 <outlet property="intextLab" destination="Qrn-jI-XBP" id="tdQ-lt-OMW"/>
                 <outlet property="wechatNumLab" destination="Jnx-jv-DLq" id="JL4-de-4ZQ"/>
             </connections>

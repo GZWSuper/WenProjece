@@ -35,7 +35,6 @@
                 <constraint firstItem="b1M-I0-eIb" firstAttribute="leading" secondItem="pTJ-df-clb" secondAttribute="leading" constant="10" id="rzB-vL-HzR"/>
             </constraints>
             <connections>
-                <outlet property="titleLab" destination="0OJ-ie-mUw" id="V1t-Gw-9tb"/>
                 <outlet property="titleLabel" destination="0OJ-ie-mUw" id="Kdh-h3-cBJ"/>
             </connections>
             <point key="canvasLocation" x="235" y="327.5"/>

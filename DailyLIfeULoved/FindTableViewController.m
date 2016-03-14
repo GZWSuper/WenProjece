@@ -39,17 +39,11 @@
     [super viewDidLoad];
     _IS_LOADING=NO;
     _reDataArray=[[NSMutableArray alloc]init];
-    [GiFHUD setGifWithImageName:@"mc.gif"];
+   // [GiFHUD setGifWithImageName:@"mc.gif"];
     [self getData];
     [self registCellId];
     [self setRefresh];
-    
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+   
 }
 - (void)viewWillDisappear:(BOOL)animated{
     [GiFHUD dismiss];
@@ -62,7 +56,7 @@
 - (void)registCellId{
     [self.tableView registerNib:[UINib nibWithNibName:@"FirstTableViewCell" bundle:nil] forCellReuseIdentifier:@"firstCell"];
     [self.tableView registerNib:[UINib nibWithNibName:@"OtherTableViewCell" bundle:nil] forCellReuseIdentifier:@"otherCell"];
-    [self.tableView registerNib:[UINib nibWithNibName:@"ImageTableViewCell" bundle:nil] forCellReuseIdentifier:@"imageCell"];
+    //[self.tableView registerNib:[UINib nibWithNibName:@"ImageTableViewCell" bundle:nil] forCellReuseIdentifier:@"imageCell"];
     UIImageView*imageV=[[UIImageView alloc]initWithFrame:[UIScreen mainScreen].bounds];
     imageV.image=[UIImage imageNamed:@"bg.png"];
     [self.view addSubview:imageV];
@@ -192,6 +186,7 @@
     }
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     AppModel*appModel=_reDataArray[indexPath.row];
     ArticleModel*articleModel=appModel.article;
     ArticleStatusModel*articleStatsModle=articleModel.articleStats;

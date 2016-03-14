@@ -74,7 +74,7 @@
    
 }
 - (CGRect)newFrameFromOriginal:(CGRect)originalFrame withView:(UIView*)view{
-     CGFloat compttedY=[self heightOffsetForView:view];
+//     CGFloat compttedY=[self heightOffsetForView:view];
     return originalFrame;
 }
 #pragma mark - Logica

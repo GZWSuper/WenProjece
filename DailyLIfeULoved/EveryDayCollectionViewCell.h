@@ -9,11 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface EveryDayCollectionViewCell : UICollectionViewCell
-@property (weak, nonatomic) IBOutlet UIImageView *ImageV;
-@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *classTitleLabel;
-@property (weak, nonatomic) IBOutlet UILabel *dayLabel;
-@property (weak, nonatomic) IBOutlet UILabel *dataLabel;
-@property (weak, nonatomic) IBOutlet UILabel *btnLan;
+@property (weak, nonatomic) IBOutlet UILabel *dayLab;
+
+@property (weak, nonatomic) IBOutlet UILabel *dateLab;
+
+
+@property (weak, nonatomic) IBOutlet UIImageView *imagv;
+@property (weak, nonatomic) IBOutlet UILabel *titleLab;
+@property (weak, nonatomic) IBOutlet UILabel *classNameLab;
 
 @end

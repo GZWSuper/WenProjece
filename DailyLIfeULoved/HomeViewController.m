@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+     _IS_UP_PULL=YES;
     [self loadWithSatrt:@"0"];
 }
 - (void)headerRefreshing{

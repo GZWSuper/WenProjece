@@ -37,7 +37,7 @@
     [urlStr appendString:Header];
     [urlStr appendString:Article];
     [urlStr appendString:[NSString stringWithFormat:@"param=%@",para]];
-    [urlStr appendString:[NSString stringWithFormat:@"filter=%@",filter]];
+    [urlStr appendString:[NSString stringWithFormat:@"&filter=%@",filter]];
     [urlStr appendString:[NSString stringWithFormat:@"&start=%@",start]];
     [urlStr appendString:[NSString stringWithFormat:@"&limit=%ld",(long)limit]];
     [GCDDownload downLoadWithUrlStr:urlStr andCallBack:^(NSData *data, NSError *error)
@@ -87,7 +87,7 @@
     [urlStr appendString:Header];
     [urlStr appendString:Article];
      [urlStr appendString:[NSString stringWithFormat:@"param=%@",param]];
-    [urlStr appendString:[NSString stringWithFormat:@"filter=%@",filter]];
+    [urlStr appendString:[NSString stringWithFormat:@"&filter=%@",filter]];
     [urlStr appendString:[NSString stringWithFormat:@"&start=%@",start]];
     [urlStr appendString:[NSString stringWithFormat:@"&limit=%ld",(long)limit]];
     [GCDDownload downLoadWithUrlStr:urlStr andCallBack:^(NSData *data, NSError *error) {

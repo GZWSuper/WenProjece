@@ -135,6 +135,7 @@ static UIImage *animatedImageWithAnimatedGIFReleasingImageSource(CGImageSourceRe
 }
 
 + (UIImage *)animatedImageWithAnimatedGIFURL:(NSURL *)url {
+    NSLog(@"%@",url);
     return animatedImageWithAnimatedGIFReleasingImageSource(CGImageSourceCreateWithURL(toCF url, NULL));
 }
 

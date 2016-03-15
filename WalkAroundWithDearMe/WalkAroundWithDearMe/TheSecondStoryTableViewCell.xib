@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="217" id="KGk-i7-Jjw" customClass="TheSecondStoryTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="339" height="217"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="339" height="216"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock_gray_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="5Ww-ZW-TwZ">
+                        <rect key="frame" x="8" y="8" width="20" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="7Q9-Vi-63s"/>
+                            <constraint firstAttribute="height" constant="28" id="v8x-Ld-Jra"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fr3-nS-UDT">
+                        <rect key="frame" x="36" y="11" width="295" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="XqE-iG-jy2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAj-8i-Uov">
+                        <rect key="frame" x="8" y="44" width="323" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EZf-9q-Dvj">
+                        <rect key="frame" x="8" y="73" width="323" height="135"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5Ww-ZW-TwZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="9d7-tW-kdu"/>
+                    <constraint firstItem="EZf-9q-Dvj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="9rK-xJ-Dap"/>
+                    <constraint firstAttribute="trailing" secondItem="EZf-9q-Dvj" secondAttribute="trailing" constant="8" id="KXd-7b-ctr"/>
+                    <constraint firstItem="jAj-8i-Uov" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="M0M-OS-Nrn"/>
+                    <constraint firstItem="EZf-9q-Dvj" firstAttribute="top" secondItem="jAj-8i-Uov" secondAttribute="bottom" constant="8" id="Uvg-cP-gfo"/>
+                    <constraint firstItem="EZf-9q-Dvj" firstAttribute="top" secondItem="jAj-8i-Uov" secondAttribute="bottom" constant="8" id="Yc9-hs-cJX"/>
+                    <constraint firstItem="fr3-nS-UDT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Yve-ye-FEf"/>
+                    <constraint firstItem="jAj-8i-Uov" firstAttribute="top" secondItem="fr3-nS-UDT" secondAttribute="bottom" constant="8" id="aWx-Ta-JET"/>
+                    <constraint firstAttribute="bottom" secondItem="EZf-9q-Dvj" secondAttribute="bottom" constant="8" id="ev3-y0-VrG"/>
+                    <constraint firstItem="fr3-nS-UDT" firstAttribute="leading" secondItem="5Ww-ZW-TwZ" secondAttribute="trailing" constant="8" id="faT-ap-Eff"/>
+                    <constraint firstItem="5Ww-ZW-TwZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="kDz-j5-zlp"/>
+                    <constraint firstAttribute="trailing" secondItem="fr3-nS-UDT" secondAttribute="trailing" constant="8" id="kIh-aG-yQV"/>
+                    <constraint firstAttribute="trailing" secondItem="jAj-8i-Uov" secondAttribute="trailing" constant="8" id="xdi-hY-RkN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="content" destination="jAj-8i-Uov" id="bP4-ch-l3p"/>
+                <outlet property="image_time" destination="fr3-nS-UDT" id="5tx-EC-qDX"/>
+                <outlet property="largeImage" destination="EZf-9q-Dvj" id="fKb-lJ-EUY"/>
+            </connections>
+            <point key="canvasLocation" x="388.5" y="255.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="clock_gray_big.png" width="14" height="14"/>
+    </resources>
+</document>

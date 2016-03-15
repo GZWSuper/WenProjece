@@ -1199,10 +1199,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhixiang xu (6MTHQ5XK52)";
 				INFOPLIST_FILE = DailyLIfeULoved/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1519Remote.Push.DailyLIfeULoved;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "043527bd-2b61-49ad-b8b2-6c79ca2743a2";
 			};
 			name = Debug;
 		};
@@ -1210,10 +1212,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhixiang xu (6MTHQ5XK52)";
 				INFOPLIST_FILE = DailyLIfeULoved/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1519Remote.Push.DailyLIfeULoved;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "043527bd-2b61-49ad-b8b2-6c79ca2743a2";
 			};
 			name = Release;
 		};

@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface GuideViewController : UIViewController
-
+@property (nonatomic,strong)NSString *guideUrl;
 @end

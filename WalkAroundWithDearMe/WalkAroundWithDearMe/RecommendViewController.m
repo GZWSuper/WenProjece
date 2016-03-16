@@ -7,18 +7,37 @@
 //
 
 #import "RecommendViewController.h"
+#import "Define.h"
+#import "UIWebView+AFNetworking.h"
+#import <WebKit/WebKit.h>
+#import "MMProgressHUD.h"
+#import "MMLinearProgressView.h"
+#import "GiFHUD.h"
 
-@interface RecommendViewController ()
-
+@interface RecommendViewController ()<UIWebViewDelegate,WKNavigationDelegate>
+@property (nonatomic,strong)UIWebView*myWebView;
+@property (nonatomic,strong)NSTimer*timer;
 @end
 
 @implementation RecommendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [GiFHUD setGifWithImageName:@"ha.gif"];
+    [GiFHUD show];
+    self.view.backgroundColor=Color;
+    
 }
-
+- (void)createWebView{
+    NSURL*weburl=[NSURL URLWithString:_recommendUrl];
+    self.navigationController.navigationBarHidden=NO;
+    _myWebView=[[UIWebView alloc]initWithFrame:CGRectMake(0, 0, ViewFramWidth, ViewFramHeight)];
+    _myWebView.delegate=self;
+    NSURLRequest*request=[NSURLRequest requestWithURL:weburl];
+    [_myWebView loadRequest:request];
+    [self.view addSubview:_myWebView];
+    [GiFHUD dismiss];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

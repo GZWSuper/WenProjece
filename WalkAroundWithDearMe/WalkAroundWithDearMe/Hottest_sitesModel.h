@@ -9,5 +9,11 @@
 #import "JSONModel.h"
 
 @interface Hottest_sitesModel : JSONModel
+@property (nonatomic, copy) NSString *name;
 
+@property (nonatomic, assign) NSInteger id;
+
+@property (nonatomic, assign) NSInteger type;
+
+@property (nonatomic, copy) NSString *cover_s;
 @end

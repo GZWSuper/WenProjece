@@ -3,30 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict>
-		<key>MMProgressHUD.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods-WalkAroundWithDearMe.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-	</dict>
+	<dict/>
 	<key>SuppressBuildableAutocreation</key>
-	<dict>
-		<key>73B708AE113D106D6CAC359F16C850A9</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FD0968FE413F59A74338A96EBD362CA8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-	</dict>
+	<dict/>
 </dict>
 </plist>

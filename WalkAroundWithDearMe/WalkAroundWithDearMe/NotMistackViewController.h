@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface NotMistackViewController : UIViewController
+@property (nonatomic,assign)NSInteger numNot;
 
+@property (nonatomic,assign)NSInteger typeNot;
 @end

@@ -16,6 +16,10 @@
 #import "StoryModel.h"
 #import "TheSecondViewController.h"
 #import "MainModel.h"
+#import "MainTableViewCell.h"
+#import "MainTwoViewController.h"
+#import "JHRefresh.h"
+#import "CycleScrollView.h"
 
 
 

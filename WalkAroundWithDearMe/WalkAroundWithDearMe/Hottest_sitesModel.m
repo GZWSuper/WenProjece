@@ -9,5 +9,9 @@
 #import "Hottest_sitesModel.h"
 
 @implementation Hottest_sitesModel
-
++(BOOL)propertyIsOptional:(NSString *)propertyName {
+    
+    return YES;
+    
+}
 @end

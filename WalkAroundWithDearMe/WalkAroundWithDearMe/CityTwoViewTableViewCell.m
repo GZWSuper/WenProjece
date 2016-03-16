@@ -13,7 +13,13 @@
 - (void)awakeFromNib {
     // Initialization code
 }
-
+- (void)staryCityTwo:(CityTwoModel *)sender{
+    _lab1.text = sender.recommended_reason;
+    _lab2.text = sender.des;
+    _lab3.text = sender.address;
+    _lab4.text = sender.arrival_type;
+    _lab5.text = sender.opening_time;
+}
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
 

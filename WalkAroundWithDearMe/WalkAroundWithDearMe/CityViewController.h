@@ -9,5 +9,7 @@
 #import "BaseTableViewController.h"
 
 @interface CityViewController : BaseTableViewController
+@property (nonatomic,copy)NSString *num;
 
+@property (nonatomic,copy)NSString *type;
 @end

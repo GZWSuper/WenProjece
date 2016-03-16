@@ -9,5 +9,5 @@
 #import "BaseTableViewController.h"
 
 @interface PlayViewController : BaseTableViewController
-
+@property (nonatomic,strong)NSString *playUrl;
 @end

@@ -245,6 +245,34 @@
 		BCB2887A1C9847F500D2110C /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB288781C9847F500D2110C /* CollectionViewCell.xib */; };
 		BCB2887E1C98484100D2110C /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2887C1C98484100D2110C /* MainTableViewCell.m */; };
 		BCB2887F1C98484100D2110C /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB2887D1C98484100D2110C /* MainTableViewCell.xib */; };
+		BCB288821C9902F000D2110C /* MainTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288811C9902F000D2110C /* MainTwoViewController.m */; };
+		BCB288861C99031900D2110C /* MainTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288841C99031900D2110C /* MainTwoTableViewCell.m */; };
+		BCB288871C99031900D2110C /* MainTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB288851C99031900D2110C /* MainTwoTableViewCell.xib */; };
+		BCB2888A1C99034600D2110C /* DaysModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288891C99034600D2110C /* DaysModel.m */; };
+		BCB2888D1C9903D100D2110C /* MainTwoDaysModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2888C1C9903D100D2110C /* MainTwoDaysModel.m */; };
+		BCB288901C993A8000D2110C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2888F1C993A8000D2110C /* SearchViewController.m */; };
+		BCB288971C993AE300D2110C /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288951C993AE300D2110C /* SearchCollectionViewCell.m */; };
+		BCB288981C993AE300D2110C /* SearchCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB288961C993AE300D2110C /* SearchCollectionViewCell.xib */; };
+		BCB2889B1C993B0800D2110C /* Search_dataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2889A1C993B0800D2110C /* Search_dataModel.m */; };
+		BCB2889E1C993B4600D2110C /* SearchElementsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB2889D1C993B4600D2110C /* SearchElementsModel.m */; };
+		BCB288A11C993E1100D2110C /* CityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288A01C993E1100D2110C /* CityModel.m */; };
+		BCB288AF1C99538D00D2110C /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BCB288A31C99538D00D2110C /* LICENSE */; };
+		BCB288B01C99538D00D2110C /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288A61C99538D00D2110C /* MMDrawerBarButtonItem.m */; };
+		BCB288B11C99538D00D2110C /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288A91C99538D00D2110C /* MMDrawerController.m */; };
+		BCB288B21C99538D00D2110C /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288AB1C99538D00D2110C /* MMDrawerVisualState.m */; };
+		BCB288B31C99538D00D2110C /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288AD1C99538D00D2110C /* UIViewController+MMDrawerController.m */; };
+		BCB288B41C99538D00D2110C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BCB288AE1C99538D00D2110C /* README.md */; };
+		BCB288CE1C99541200D2110C /* MMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288B71C99541200D2110C /* MMHud.m */; };
+		BCB288CF1C99541200D2110C /* MMLinearProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288B91C99541200D2110C /* MMLinearProgressView.m */; };
+		BCB288D01C99541200D2110C /* MMProgressHUD+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288BB1C99541200D2110C /* MMProgressHUD+Animations.m */; };
+		BCB288D11C99541200D2110C /* MMProgressHUD+Class.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288BC1C99541200D2110C /* MMProgressHUD+Class.m */; };
+		BCB288D21C99541200D2110C /* MMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288BE1C99541200D2110C /* MMProgressHUD.m */; };
+		BCB288D31C99541200D2110C /* MMProgressHUDOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288C11C99541200D2110C /* MMProgressHUDOverlayView.m */; };
+		BCB288D41C99541200D2110C /* MMProgressHUDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288C31C99541200D2110C /* MMProgressHUDViewController.m */; };
+		BCB288D51C99541200D2110C /* MMProgressHUDWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288C51C99541200D2110C /* MMProgressHUDWindow.m */; };
+		BCB288D61C99541200D2110C /* MMRadialProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288C81C99541200D2110C /* MMRadialProgressView.m */; };
+		BCB288D71C99541200D2110C /* MMVectorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288CA1C99541200D2110C /* MMVectorImage.m */; };
+		BCB288D81C99541200D2110C /* NSString+Hashing.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB288CD1C99541200D2110C /* NSString+Hashing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -626,6 +654,60 @@
 		BCB2887B1C98484100D2110C /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
 		BCB2887C1C98484100D2110C /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
 		BCB2887D1C98484100D2110C /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		BCB288801C9902F000D2110C /* MainTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTwoViewController.h; sourceTree = "<group>"; };
+		BCB288811C9902F000D2110C /* MainTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTwoViewController.m; sourceTree = "<group>"; };
+		BCB288831C99031900D2110C /* MainTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTwoTableViewCell.h; sourceTree = "<group>"; };
+		BCB288841C99031900D2110C /* MainTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTwoTableViewCell.m; sourceTree = "<group>"; };
+		BCB288851C99031900D2110C /* MainTwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTwoTableViewCell.xib; sourceTree = "<group>"; };
+		BCB288881C99034600D2110C /* DaysModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaysModel.h; sourceTree = "<group>"; };
+		BCB288891C99034600D2110C /* DaysModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaysModel.m; sourceTree = "<group>"; };
+		BCB2888B1C9903D100D2110C /* MainTwoDaysModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTwoDaysModel.h; sourceTree = "<group>"; };
+		BCB2888C1C9903D100D2110C /* MainTwoDaysModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTwoDaysModel.m; sourceTree = "<group>"; };
+		BCB2888E1C993A8000D2110C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		BCB2888F1C993A8000D2110C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		BCB288941C993AE300D2110C /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		BCB288951C993AE300D2110C /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
+		BCB288961C993AE300D2110C /* SearchCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCollectionViewCell.xib; sourceTree = "<group>"; };
+		BCB288991C993B0800D2110C /* Search_dataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search_dataModel.h; sourceTree = "<group>"; };
+		BCB2889A1C993B0800D2110C /* Search_dataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search_dataModel.m; sourceTree = "<group>"; };
+		BCB2889C1C993B4600D2110C /* SearchElementsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchElementsModel.h; sourceTree = "<group>"; };
+		BCB2889D1C993B4600D2110C /* SearchElementsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchElementsModel.m; sourceTree = "<group>"; };
+		BCB2889F1C993E1100D2110C /* CityModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityModel.h; sourceTree = "<group>"; };
+		BCB288A01C993E1100D2110C /* CityModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityModel.m; sourceTree = "<group>"; };
+		BCB288A31C99538D00D2110C /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BCB288A51C99538D00D2110C /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		BCB288A61C99538D00D2110C /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		BCB288A71C99538D00D2110C /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		BCB288A81C99538D00D2110C /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		BCB288A91C99538D00D2110C /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		BCB288AA1C99538D00D2110C /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		BCB288AB1C99538D00D2110C /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		BCB288AC1C99538D00D2110C /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		BCB288AD1C99538D00D2110C /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		BCB288AE1C99538D00D2110C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BCB288B61C99541200D2110C /* MMHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMHud.h; sourceTree = "<group>"; };
+		BCB288B71C99541200D2110C /* MMHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMHud.m; sourceTree = "<group>"; };
+		BCB288B81C99541200D2110C /* MMLinearProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMLinearProgressView.h; sourceTree = "<group>"; };
+		BCB288B91C99541200D2110C /* MMLinearProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMLinearProgressView.m; sourceTree = "<group>"; };
+		BCB288BA1C99541200D2110C /* MMProgressHUD+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressHUD+Animations.h"; sourceTree = "<group>"; };
+		BCB288BB1C99541200D2110C /* MMProgressHUD+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Animations.m"; sourceTree = "<group>"; };
+		BCB288BC1C99541200D2110C /* MMProgressHUD+Class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MMProgressHUD+Class.m"; sourceTree = "<group>"; };
+		BCB288BD1C99541200D2110C /* MMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUD.h; sourceTree = "<group>"; };
+		BCB288BE1C99541200D2110C /* MMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUD.m; sourceTree = "<group>"; };
+		BCB288BF1C99541200D2110C /* MMProgressHUDCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDCommon.h; sourceTree = "<group>"; };
+		BCB288C01C99541200D2110C /* MMProgressHUDOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDOverlayView.h; sourceTree = "<group>"; };
+		BCB288C11C99541200D2110C /* MMProgressHUDOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDOverlayView.m; sourceTree = "<group>"; };
+		BCB288C21C99541200D2110C /* MMProgressHUDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDViewController.h; sourceTree = "<group>"; };
+		BCB288C31C99541200D2110C /* MMProgressHUDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDViewController.m; sourceTree = "<group>"; };
+		BCB288C41C99541200D2110C /* MMProgressHUDWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMProgressHUDWindow.h; sourceTree = "<group>"; };
+		BCB288C51C99541200D2110C /* MMProgressHUDWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMProgressHUDWindow.m; sourceTree = "<group>"; };
+		BCB288C61C99541200D2110C /* MMProgressView-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMProgressView-Protocol.h"; sourceTree = "<group>"; };
+		BCB288C71C99541200D2110C /* MMRadialProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRadialProgressView.h; sourceTree = "<group>"; };
+		BCB288C81C99541200D2110C /* MMRadialProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRadialProgressView.m; sourceTree = "<group>"; };
+		BCB288C91C99541200D2110C /* MMVectorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMVectorImage.h; sourceTree = "<group>"; };
+		BCB288CA1C99541200D2110C /* MMVectorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMVectorImage.m; sourceTree = "<group>"; };
+		BCB288CC1C99541200D2110C /* NSString+Hashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashing.h"; sourceTree = "<group>"; };
+		BCB288CD1C99541200D2110C /* NSString+Hashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashing.m"; sourceTree = "<group>"; };
 		F407DF16FB5E45D0F6CAA017 /* Pods-WalkAroundWithDearMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkAroundWithDearMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalkAroundWithDearMe/Pods-WalkAroundWithDearMe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -704,14 +786,12 @@
 				BCB285781C96947900D2110C /* AppDelegate.m */,
 				BCB2857A1C96947900D2110C /* ViewController.h */,
 				BCB2857B1C96947900D2110C /* ViewController.m */,
-				BCB288401C97B43E00D2110C /* searchView */,
 				BCB2883F1C97B42F00D2110C /* cityView */,
 				BCB2864F1C96B13500D2110C /* main */,
 				BCB288381C97B18400D2110C /* First */,
 				BCB286A41C96B7E000D2110C /* stroy */,
 				BCB286A61C96B87C00D2110C /* search */,
 				BCB286A51C96B7F700D2110C /* collect */,
-				BCB286A71C96B89900D2110C /* city */,
 				BCB286A21C96B6E300D2110C /* help */,
 				BCB2857D1C96947900D2110C /* Main.storyboard */,
 				BCB285801C96947900D2110C /* Assets.xcassets */,
@@ -790,6 +870,8 @@
 		BCB2860C1C96A39D00D2110C /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				BCB288B51C99541200D2110C /* MMProgressHUD */,
+				BCB288A21C99538D00D2110C /* MMDrawerController1 */,
 				BCB2881E1C97AE3A00D2110C /* FMDB */,
 				BCB287F21C97A6B400D2110C /* SDWebImage */,
 				BCB287211C96BF5D00D2110C /* travelImage */,
@@ -949,15 +1031,17 @@
 		BCB286A61C96B87C00D2110C /* search */ = {
 			isa = PBXGroup;
 			children = (
+				BCB2888E1C993A8000D2110C /* SearchViewController.h */,
+				BCB2888F1C993A8000D2110C /* SearchViewController.m */,
+				BCB288941C993AE300D2110C /* SearchCollectionViewCell.h */,
+				BCB288951C993AE300D2110C /* SearchCollectionViewCell.m */,
+				BCB288961C993AE300D2110C /* SearchCollectionViewCell.xib */,
+				BCB288991C993B0800D2110C /* Search_dataModel.h */,
+				BCB2889A1C993B0800D2110C /* Search_dataModel.m */,
+				BCB2889C1C993B4600D2110C /* SearchElementsModel.h */,
+				BCB2889D1C993B4600D2110C /* SearchElementsModel.m */,
 			);
 			name = search;
-			sourceTree = "<group>";
-		};
-		BCB286A71C96B89900D2110C /* city */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = city;
 			sourceTree = "<group>";
 		};
 		BCB286B31C96B9F600D2110C /* JSONModel */ = {
@@ -1271,6 +1355,15 @@
 				BCB2887B1C98484100D2110C /* MainTableViewCell.h */,
 				BCB2887C1C98484100D2110C /* MainTableViewCell.m */,
 				BCB2887D1C98484100D2110C /* MainTableViewCell.xib */,
+				BCB288801C9902F000D2110C /* MainTwoViewController.h */,
+				BCB288811C9902F000D2110C /* MainTwoViewController.m */,
+				BCB288831C99031900D2110C /* MainTwoTableViewCell.h */,
+				BCB288841C99031900D2110C /* MainTwoTableViewCell.m */,
+				BCB288851C99031900D2110C /* MainTwoTableViewCell.xib */,
+				BCB288881C99034600D2110C /* DaysModel.h */,
+				BCB288891C99034600D2110C /* DaysModel.m */,
+				BCB2888B1C9903D100D2110C /* MainTwoDaysModel.h */,
+				BCB2888C1C9903D100D2110C /* MainTwoDaysModel.m */,
 			);
 			name = First;
 			sourceTree = "<group>";
@@ -1300,6 +1393,8 @@
 				BCB288571C97BF3E00D2110C /* CityTwoViewTableViewCell.h */,
 				BCB288581C97BF3E00D2110C /* CityTwoViewTableViewCell.m */,
 				BCB288591C97BF3E00D2110C /* CityTwoViewTableViewCell.xib */,
+				BCB2889F1C993E1100D2110C /* CityModel.h */,
+				BCB288A01C993E1100D2110C /* CityModel.m */,
 				BCB288511C97B65500D2110C /* PhotoModel.h */,
 				BCB288521C97B65500D2110C /* PhotoModel.m */,
 				BCB288541C97B68D00D2110C /* Hottest_sitesModel.h */,
@@ -1313,11 +1408,68 @@
 			name = cityView;
 			sourceTree = "<group>";
 		};
-		BCB288401C97B43E00D2110C /* searchView */ = {
+		BCB288A21C99538D00D2110C /* MMDrawerController1 */ = {
 			isa = PBXGroup;
 			children = (
+				BCB288A31C99538D00D2110C /* LICENSE */,
+				BCB288A41C99538D00D2110C /* MMDrawerController */,
+				BCB288AE1C99538D00D2110C /* README.md */,
 			);
-			name = searchView;
+			path = MMDrawerController1;
+			sourceTree = "<group>";
+		};
+		BCB288A41C99538D00D2110C /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				BCB288A51C99538D00D2110C /* MMDrawerBarButtonItem.h */,
+				BCB288A61C99538D00D2110C /* MMDrawerBarButtonItem.m */,
+				BCB288A71C99538D00D2110C /* MMDrawerController+Subclass.h */,
+				BCB288A81C99538D00D2110C /* MMDrawerController.h */,
+				BCB288A91C99538D00D2110C /* MMDrawerController.m */,
+				BCB288AA1C99538D00D2110C /* MMDrawerVisualState.h */,
+				BCB288AB1C99538D00D2110C /* MMDrawerVisualState.m */,
+				BCB288AC1C99538D00D2110C /* UIViewController+MMDrawerController.h */,
+				BCB288AD1C99538D00D2110C /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		BCB288B51C99541200D2110C /* MMProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				BCB288B61C99541200D2110C /* MMHud.h */,
+				BCB288B71C99541200D2110C /* MMHud.m */,
+				BCB288B81C99541200D2110C /* MMLinearProgressView.h */,
+				BCB288B91C99541200D2110C /* MMLinearProgressView.m */,
+				BCB288BA1C99541200D2110C /* MMProgressHUD+Animations.h */,
+				BCB288BB1C99541200D2110C /* MMProgressHUD+Animations.m */,
+				BCB288BC1C99541200D2110C /* MMProgressHUD+Class.m */,
+				BCB288BD1C99541200D2110C /* MMProgressHUD.h */,
+				BCB288BE1C99541200D2110C /* MMProgressHUD.m */,
+				BCB288BF1C99541200D2110C /* MMProgressHUDCommon.h */,
+				BCB288C01C99541200D2110C /* MMProgressHUDOverlayView.h */,
+				BCB288C11C99541200D2110C /* MMProgressHUDOverlayView.m */,
+				BCB288C21C99541200D2110C /* MMProgressHUDViewController.h */,
+				BCB288C31C99541200D2110C /* MMProgressHUDViewController.m */,
+				BCB288C41C99541200D2110C /* MMProgressHUDWindow.h */,
+				BCB288C51C99541200D2110C /* MMProgressHUDWindow.m */,
+				BCB288C61C99541200D2110C /* MMProgressView-Protocol.h */,
+				BCB288C71C99541200D2110C /* MMRadialProgressView.h */,
+				BCB288C81C99541200D2110C /* MMRadialProgressView.m */,
+				BCB288C91C99541200D2110C /* MMVectorImage.h */,
+				BCB288CA1C99541200D2110C /* MMVectorImage.m */,
+				BCB288CB1C99541200D2110C /* nsstring-hashing */,
+			);
+			path = MMProgressHUD;
+			sourceTree = "<group>";
+		};
+		BCB288CB1C99541200D2110C /* nsstring-hashing */ = {
+			isa = PBXGroup;
+			children = (
+				BCB288CC1C99541200D2110C /* NSString+Hashing.h */,
+				BCB288CD1C99541200D2110C /* NSString+Hashing.m */,
+			);
+			path = "nsstring-hashing";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1483,6 +1635,7 @@
 				BCB287971C96BF5D00D2110C /* blue_button_hl.png in Resources */,
 				BCB287C11C96BF5D00D2110C /* locateUser@2x.png in Resources */,
 				BCB287C61C96BF5D00D2110C /* lock_round.png in Resources */,
+				BCB288AF1C99538D00D2110C /* LICENSE in Resources */,
 				BCB287AE1C96BF5D00D2110C /* iconfont-iconfontlike.png in Resources */,
 				BCB287E61C96BF5D00D2110C /* share_button_image_hl@2x.png in Resources */,
 				BCB285C41C969A3D00D2110C /* JHRefresh.bundle in Resources */,
@@ -1504,6 +1657,7 @@
 				BCB286B21C96B9D500D2110C /* TheSecondStoryTableViewCell.xib in Resources */,
 				BCB2884B1C97B5EE00D2110C /* PlayTableViewCell.xib in Resources */,
 				BCB287F11C96BF5D00D2110C /* xixi.png in Resources */,
+				BCB288871C99031900D2110C /* MainTwoTableViewCell.xib in Resources */,
 				BCB287C71C96BF5D00D2110C /* lock_round@2x.png in Resources */,
 				BCB287921C96BF5D00D2110C /* add_new_poi_search_button@2x.png in Resources */,
 				BCB287CF1C96BF5D00D2110C /* map_text.png in Resources */,
@@ -1524,6 +1678,7 @@
 				BCB287C51C96BF5D00D2110C /* locationIcon@2x.png in Resources */,
 				BCB2871F1C96BF2500D2110C /* Icon120.png in Resources */,
 				BCB287C21C96BF5D00D2110C /* locateUser_highlight.png in Resources */,
+				BCB288981C993AE300D2110C /* SearchCollectionViewCell.xib in Resources */,
 				BCB287CC1C96BF5D00D2110C /* map_blue_cycle_gray@2x.png in Resources */,
 				BCB287B91C96BF5D00D2110C /* iconfontsearch@2x.png in Resources */,
 				BCB2882E1C97AE3A00D2110C /* LICENSE.txt in Resources */,
@@ -1631,9 +1786,15 @@
 				BCB286D91C96BA2F00D2110C /* Detail_listModel.m in Sources */,
 				BCB287091C96BDC800D2110C /* JHRefreshHeaderView.m in Sources */,
 				BCB288671C97C06C00D2110C /* RecommendViewController.m in Sources */,
+				BCB288B31C99538D00D2110C /* UIViewController+MMDrawerController.m in Sources */,
 				BCB2869D1C96B6B900D2110C /* UIButton+AFNetworking.m in Sources */,
+				BCB288D11C99541200D2110C /* MMProgressHUD+Class.m in Sources */,
 				BCB286951C96B6B900D2110C /* AFURLRequestSerialization.m in Sources */,
+				BCB288D31C99541200D2110C /* MMProgressHUDOverlayView.m in Sources */,
 				BCB286AA1C96B8F700D2110C /* StoryViewController.m in Sources */,
+				BCB288901C993A8000D2110C /* SearchViewController.m in Sources */,
+				BCB2889E1C993B4600D2110C /* SearchElementsModel.m in Sources */,
+				BCB2889B1C993B0800D2110C /* Search_dataModel.m in Sources */,
 				BCB286E11C96BB2C00D2110C /* PioModel.m in Sources */,
 				BCB288301C97AE3A00D2110C /* FMDatabase.m in Sources */,
 				BCB2887E1C98484100D2110C /* MainTableViewCell.m in Sources */,
@@ -1645,10 +1806,14 @@
 				BCB286E71C96BC9E00D2110C /* StoryModel.m in Sources */,
 				BCB286B11C96B9D500D2110C /* TheSecondStoryTableViewCell.m in Sources */,
 				BCB288751C98479E00D2110C /* CycleScrollView.m in Sources */,
+				BCB288D51C99541200D2110C /* MMProgressHUDWindow.m in Sources */,
 				BCB2885A1C97BF3E00D2110C /* CityTwoViewTableViewCell.m in Sources */,
 				BCB286DD1C96BAE000D2110C /* StoryCollectionViewCell.m in Sources */,
+				BCB288D21C99541200D2110C /* MMProgressHUD.m in Sources */,
 				BCB286611C96B48C00D2110C /* MMDrawerBarButtonItem.m in Sources */,
 				BCB288641C97C02700D2110C /* GuideViewController.m in Sources */,
+				BCB288B11C99538D00D2110C /* MMDrawerController.m in Sources */,
+				BCB288A11C993E1100D2110C /* CityModel.m in Sources */,
 				BCB286651C96B48C00D2110C /* README.md in Sources */,
 				BCB286A01C96B6B900D2110C /* UIRefreshControl+AFNetworking.m in Sources */,
 				BCB288341C97AE3A00D2110C /* FMResultSet.m in Sources */,
@@ -1656,8 +1821,10 @@
 				BCB286D41C96B9F600D2110C /* JSONModel+networking.m in Sources */,
 				BCB285791C96947900D2110C /* AppDelegate.m in Sources */,
 				BCB285761C96947900D2110C /* main.m in Sources */,
+				BCB288821C9902F000D2110C /* MainTwoViewController.m in Sources */,
 				BCB285C61C969A3D00D2110C /* JHRefreshConfig.m in Sources */,
 				BCB286931C96B6B900D2110C /* AFSecurityPolicy.m in Sources */,
+				BCB288D71C99541200D2110C /* MMVectorImage.m in Sources */,
 				BCB286D61C96B9F600D2110C /* JSONValueTransformer.m in Sources */,
 				BCB2870A1C96BDC800D2110C /* UIScrollView+JHExtension.m in Sources */,
 				BCB288111C97A6B400D2110C /* SDImageCache.m in Sources */,
@@ -1665,6 +1832,7 @@
 				BCB288461C97B4C200D2110C /* CityTwoModel.m in Sources */,
 				BCB288101C97A6B400D2110C /* NSData+ImageContentType.m in Sources */,
 				BCB2884A1C97B5EE00D2110C /* PlayTableViewCell.m in Sources */,
+				BCB288D61C99541200D2110C /* MMRadialProgressView.m in Sources */,
 				BCB2868F1C96B6B900D2110C /* AFHTTPRequestOperation.m in Sources */,
 				BCB2881B1C97A6B400D2110C /* UIImageView+HighlightedWebCache.m in Sources */,
 				BCB2883E1C97B23700D2110C /* MainModel.m in Sources */,
@@ -1672,6 +1840,7 @@
 				BCB287081C96BDC800D2110C /* JHRefreshFooterView.m in Sources */,
 				BCB285C51C969A3D00D2110C /* JHRefreshBaseView.m in Sources */,
 				BCB286991C96B6B900D2110C /* README.md in Sources */,
+				BCB2888D1C9903D100D2110C /* MainTwoDaysModel.m in Sources */,
 				BCB288191C97A6B400D2110C /* UIImage+GIF.m in Sources */,
 				BCB285CB1C969A3D00D2110C /* UIView+JHExtension.m in Sources */,
 				BCB286CE1C96B9F600D2110C /* JSONModelArray.m in Sources */,
@@ -1683,8 +1852,12 @@
 				BCB287031C96BDC800D2110C /* JHRefreshAniBaseView.m in Sources */,
 				BCB288161C97A6B400D2110C /* SDWebImageManager.m in Sources */,
 				BCB2881C1C97A6B400D2110C /* UIImageView+WebCache.m in Sources */,
+				BCB288861C99031900D2110C /* MainTwoTableViewCell.m in Sources */,
+				BCB288B41C99538D00D2110C /* README.md in Sources */,
 				BCB2881D1C97A6B400D2110C /* UIView+WebCacheOperation.m in Sources */,
 				BCB286641C96B48C00D2110C /* UIViewController+MMDrawerController.m in Sources */,
+				BCB288CE1C99541200D2110C /* MMHud.m in Sources */,
+				BCB288D41C99541200D2110C /* MMProgressHUDViewController.m in Sources */,
 				BCB288561C97B68D00D2110C /* Hottest_sitesModel.m in Sources */,
 				BCB285C91C969A3D00D2110C /* UIScrollView+JHExtension.m in Sources */,
 				BCB288701C97C13300D2110C /* NotMistackViewController.m in Sources */,
@@ -1696,7 +1869,9 @@
 				BCB286E41C96BC4900D2110C /* UserModel.m in Sources */,
 				BCB288431C97B48C00D2110C /* PlayModel.m in Sources */,
 				BCB2882F1C97AE3A00D2110C /* README.markdown in Sources */,
+				BCB288B21C99538D00D2110C /* MMDrawerVisualState.m in Sources */,
 				BCB285C31C969A3D00D2110C /* JHRefreshCommonAniView.m in Sources */,
+				BCB288B01C99538D00D2110C /* MMDrawerBarButtonItem.m in Sources */,
 				BCB2864E1C96B12B00D2110C /* BaseTableViewController.m in Sources */,
 				BCB288121C97A6B400D2110C /* SDWebImageCompat.m in Sources */,
 				BCB288531C97B65500D2110C /* PhotoModel.m in Sources */,
@@ -1710,6 +1885,7 @@
 				BCB286D31C96B9F600D2110C /* JSONHTTPClient.m in Sources */,
 				BCB287061C96BDC800D2110C /* JHRefreshBaseView.m in Sources */,
 				BCB2883B1C97B1DF00D2110C /* MainUserMOdel.m in Sources */,
+				BCB288D81C99541200D2110C /* NSString+Hashing.m in Sources */,
 				BCB285C71C969A3D00D2110C /* JHRefreshFooterView.m in Sources */,
 				BCB287041C96BDC800D2110C /* JHRefreshCommonAniView.m in Sources */,
 				BCB285C11C969A3D00D2110C /* JHRefreshAmazingAniView.m in Sources */,
@@ -1717,15 +1893,19 @@
 				BCB2870F1C96BDFC00D2110C /* GiFHUD.m in Sources */,
 				BCB288321C97AE3A00D2110C /* FMDatabasePool.m in Sources */,
 				BCB286AD1C96B97A00D2110C /* TheSecondViewController.m in Sources */,
+				BCB288CF1C99541200D2110C /* MMLinearProgressView.m in Sources */,
+				BCB288971C993AE300D2110C /* SearchCollectionViewCell.m in Sources */,
 				BCB2870C1C96BDC800D2110C /* UIView+JHExtension.m in Sources */,
 				BCB286521C96B2FC00D2110C /* MainViewController.m in Sources */,
 				BCB286CF1C96B9F600D2110C /* JSONModelClassProperty.m in Sources */,
+				BCB288D01C99541200D2110C /* MMProgressHUD+Animations.m in Sources */,
 				BCB286621C96B48C00D2110C /* MMDrawerController.m in Sources */,
 				BCB288151C97A6B400D2110C /* SDWebImageDownloaderOperation.m in Sources */,
 				BCB287071C96BDC800D2110C /* JHRefreshConfig.m in Sources */,
 				BCB288171C97A6B400D2110C /* SDWebImagePrefetcher.m in Sources */,
 				BCB288141C97A6B400D2110C /* SDWebImageDownloader.m in Sources */,
 				BCB286D51C96B9F600D2110C /* JSONKeyMapper.m in Sources */,
+				BCB2888A1C99034600D2110C /* DaysModel.m in Sources */,
 				BCB288181C97A6B400D2110C /* UIButton+WebCache.m in Sources */,
 				BCB287021C96BDC800D2110C /* JHRefreshAmazingAniView.m in Sources */,
 				BCB286921C96B6B900D2110C /* AFNetworkReachabilityManager.m in Sources */,

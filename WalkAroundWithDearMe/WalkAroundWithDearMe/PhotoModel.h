@@ -9,5 +9,5 @@
 #import "JSONModel.h"
 
 @interface PhotoModel : JSONModel
-
+@property (nonatomic,strong)NSString *photo;
 @end

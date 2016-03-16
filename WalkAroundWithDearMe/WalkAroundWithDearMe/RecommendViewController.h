@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RecommendViewController : UIViewController
+@property (nonatomic,strong)NSString *recommendUrl;
 
 @end

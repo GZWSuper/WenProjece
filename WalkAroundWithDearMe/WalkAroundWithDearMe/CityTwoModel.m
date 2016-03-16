@@ -9,5 +9,11 @@
 #import "CityTwoModel.h"
 
 @implementation CityTwoModel
-
++(BOOL)propertyIsOptional:(NSString *)propertyName {
+    
+    return YES;
+}
++ (JSONKeyMapper*)keyMapper{
+    return [[JSONKeyMapper alloc]initWithDictionary:@{@"description":@"des"}];
+}
 @end
